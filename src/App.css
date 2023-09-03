@@ -1,0 +1,19 @@
+  /* general config*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+
+}   
+                     /*    body css config*/
+body{
+   
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header{}

@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+    height: 600px;
+
+                  /* background header config*/
+    background-image: url(/public/header/espaco-ux.png);
+    background-size: 600px  500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.menu_header ul{
+    display: flex;
+    
+    height: 80px;
+    align-items: center;
+    
+}
+.menu_header li{
+ margin-right:40px ;
+ margin-left: 10px;
+ 
+}
+.active{
+color: white !important;
+background-color: blueviolet !important
+
+}
+.menu_header ul li {
+    cursor: pointer;
+    color: rgb(34, 6, 59);
+     padding: 10px;
+     border-radius: 5px;
+}
+.menu_header ul li:hover{
+background-color:blueviolet;
+color: white;
+
+}
+
+   /* imageHeader config*/
+
+.headerImage{
+margin: auto;
+ width: 100%;
+margin-top: 50px;
+display: flex;
+justify-content: space-around;
+height: 300px;
+align-items: center;
+
+}
+@keyframes lvitation {
+    
+    0%{
+        margin-top: 10px;
+    }
+    50%{
+        margin-top: 50px;
+    }
+     
+    100%{
+        margin-top: 10px;
+    }
+
+     
+}
+.headerImage img{
+    animation: levitation 3s infinite;
+    margin-right: 450px;
+}
+
+
+/**     button*/
+
+.btnget{
+    text-align: center;
+    height: 50px;
+}
+.btnheaderget {
+        color:white;
+        cursor: pointer;
+        font-size: 15pt;
+        padding: 15px; 
+        border-radius: 3px;
+        border: 1px solid white;
+        background-color: blueviolet;
+
+}
